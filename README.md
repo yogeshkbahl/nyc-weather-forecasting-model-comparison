@@ -1,5 +1,9 @@
 # nyc-weather-forecasting-model-comparison
 
+[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/yogeshkbahl/nyc-weather-forecasting-model-comparison/blob/main/4.%20Weather%20Forecasting.ipynb)
+
+▶️ **Run it in Google Colab:** click the badge above, then **Runtime → Run all**. The data loads straight from this repo, so no upload is needed (full run takes about a minute).
+
 A weather forecasting project that analyzes daily NYC weather data, engineers time-series features, and compares RNN, LSTM, XGBoost, and Random Forest models for next-day temperature prediction. It also generates a 30-day autoregressive temperature forecast with visualizations.
 
 ---
@@ -56,7 +60,7 @@ This project analyzes daily New York City weather data and builds a forecasting 
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/your-username/nyc-weather-forecasting-model-comparison.git
+git clone https://github.com/yogeshkbahl/nyc-weather-forecasting-model-comparison.git
 cd nyc-weather-forecasting-model-comparison
 ```
 
@@ -81,20 +85,16 @@ venv\Scripts\activate
 ### 3. Install dependencies
 
 ```bash
-pip install numpy pandas matplotlib seaborn scikit-learn xgboost tensorflow notebook
+pip install numpy pandas scipy matplotlib seaborn scikit-learn xgboost tensorflow notebook
 ```
 
 ---
 
 ## Usage
 
-### 1. Place the dataset in the project folder
+### 1. Dataset
 
-The notebook expects a file named:
-
-```
-nyc_weather_2023.csv
-```
+`nyc_weather_2023.csv` loads automatically from this GitHub repo, so no download or placement is needed.
 
 ### 2. Launch Jupyter Notebook
 
